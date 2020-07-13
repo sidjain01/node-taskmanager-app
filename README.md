@@ -52,7 +52,7 @@ Url pattern list is given below:
                                 }
                                 
 12.Get tasks of user. https://node-taskmanager-app.herokuapp.com//tasks?limit=6&sortBy=createdAt:asc (GET)
-   No request body.limit and sortBy are params passed.
+   No request body. (-limit and sortBy are params passed.)
    
 13.Get particular task of user. https://node-taskmanager-app.herokuapp.com//tasks/{{task_id}} (GET)
    No request body
